@@ -1,8 +1,12 @@
-# Level 1 Heading
+# Deploying the web shop
 
-In this exercise, you will...
+In this exercise, you will run the web shop in your IDE, then you will package the deployable artefact and deploy it to SAP Cloud Platform. At the end you should be able to access the deployed web shop using your browser.
 
-## Level 2 Heading
+## Set up your IDE
+
+## Run locally
+
+## Push to SAP Cloud Platform
 
 After completing these steps you will have....
 
