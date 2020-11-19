@@ -2,13 +2,15 @@
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2020 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2020 session called DT261 - Extend SAP S/4HANA to meet unique business needs – the cloud-native way!  
 
 ## Overview
 
-This session introduces attendees to...
+Address your custom requirements in the cloud with side-by-side extensions. Leverage the latest cloud-native technology to communicate with SAP S/4HANA and other SAP systems. Learn how you can use the embedded support in SAP Cloud SDK to quickly launch an online, cloud-native application built on state-of-the-art technology that integrates with SAP S/4HANA Cloud.
 
 ## Requirements
+
+You will need the following to execute our exercises.
 
 1. Trial account on SAP Cloud Platform with access to the following services
     - Cloud Foundry
