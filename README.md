@@ -20,8 +20,6 @@ You will need the following to execute our exercises.
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
-
 - [Getting Started - Deploying the Web Shop](exercises/ex0/)
     - Set up your IDE
     - Run locally
