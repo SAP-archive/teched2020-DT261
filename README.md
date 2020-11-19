@@ -10,7 +10,11 @@ This session introduces attendees to...
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+1. Trial account on SAP Cloud Platform with access to the following services
+    - Cloud Foundry
+    - SAP Business Application Studio
+
+2. A current version of Google Chrome
 
 ## Exercises
 
@@ -32,19 +36,6 @@ Provide the exercise content here directly in README.md using [markdown](https:/
     - Exercise 3.2 - Implement the promotions controller
     - Exercise 3.3 - Configure the destination locally
     - Exercise 3.4 - Configure the destination on SAP Cloud Platform
-
-
-**OR** Link to the PDF document stored in your github repo for example...
-
-Start the exercises [here](exercises/myPDFDoc.pdf).
-    
-**OR** Link to the Tutorial Navigator for example...
-
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
-
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
 
 ## How to obtain support
 
