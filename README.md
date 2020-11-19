@@ -28,17 +28,17 @@ After registering your [trial](https://www.sap.com/cmp/td/sap-cloud-platform-tri
     - Run locally
     - Push to SAP Cloud Platform
 - [Exercise 1 - Loading products from SAP S/4HANA Cloud](exercises/ex1/)
-    - [Exercise 1.1 - Implement the products controller](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Configure the destination locally](exercises/ex1#exercise-12-sub-exercise-2-description)
-    - Exercise 1.3 - Configure the destination on SAP Cloud Platform
+    - [Implement the products controller](exercises/ex1#exercise-11-sub-exercise-1-description)
+    - [Configure the destination locally](exercises/ex1#exercise-12-sub-exercise-2-description)
+    - Configure the destination on SAP Cloud Platform
 - [Exercise 2 - Placing the order with SAP S/4HANA Cloud](exercises/ex2/)
-    - [Exercise 2.1 - Implement the orders controller](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Reuse the destination configurations from exercise 1](exercises/ex2#exercise-22-sub-exercise-2-description)
+    - [Implement the orders controller](exercises/ex2#exercise-21-sub-exercise-1-description)
+    - [Reuse the destination configurations from exercise 1](exercises/ex2#exercise-22-sub-exercise-2-description)
 - Exercise 3 - Loading promotions from SAP Promotion Pricing
-    - Exercise 3.1 - Generate the client library
-    - Exercise 3.2 - Implement the promotions controller
-    - Exercise 3.3 - Configure the destination locally
-    - Exercise 3.4 - Configure the destination on SAP Cloud Platform
+    - Generate the client library
+    - Implement the promotions controller
+    - Configure the destination locally
+    - Configure the destination on SAP Cloud Platform
 
 ## How to obtain support
 
