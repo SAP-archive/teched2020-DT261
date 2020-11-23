@@ -72,6 +72,8 @@ mvn clean package
 cf push
 ```
 
+If you open the deployed application in a new browser tab. You will see the products list, retrieved from SAP S/4HANA Cloud.
+
 ## Summary
 
 You've now ...
