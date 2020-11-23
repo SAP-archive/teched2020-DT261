@@ -42,9 +42,10 @@ export destinations='[{"type": "HTTP", "name": "S4HANA", "url": "https://odata-m
 
 3. Run the application in your IDE to see the changes.
 ```
-export destinations='[{"type": "HTTP", "name": "S4HANA", "url": "https://odata-mock-server-hilarious-tiger.cfapps.sap.hana.ondemand.com/"}]'
+cd ~/projects/teched2020-DT261/webshop
+mvn spring-boot:run
 ```
-<br>![](/exercises/ex1/images/01_02_0010.png)
+<br>![](/exercises/ex1/images/product_list_page.png)
 
 
 ## Summary
