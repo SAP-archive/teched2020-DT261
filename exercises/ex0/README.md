@@ -48,7 +48,7 @@ Note that these steps did not deploy the application on SAP Cloud Platform. Your
 To stop the application, close the browser tab, return to the terminal and hit `CTRL + C` on your keyboard.
 
 
-## Push to SAP Cloud Platform
+## Deploy the web shop to SAP Cloud Platform
 
 1. Open your SAP Cloud Platform Cockpit in a new browser tab and navigate to the subaccount overview page. Locate the section `Cloud Foundry` as described in the prerequisites. Copy the API Endpoint URL.
 <br>![](/exercises/ex0/images/copy_api_endpoint.png)
