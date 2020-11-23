@@ -25,8 +25,8 @@ After [registering your trial account](https://www.youtube.com/watch?v=n5luSQKYv
 
 - [Getting Started - Deploying the Web Shop](exercises/ex0/)
     - Set up your IDE
-    - Run locally
-    - Push to SAP Cloud Platform
+    - Run the web shop in your IDE
+    - Deploy the web shop to SAP Cloud Platform
 - [Exercise 1 - Loading products from SAP S/4HANA Cloud](exercises/ex1/)
     - [Implement the products controller](exercises/ex1#exercise-11-sub-exercise-1-description)
     - [Configure the destination locally](exercises/ex1#exercise-12-sub-exercise-2-description)
