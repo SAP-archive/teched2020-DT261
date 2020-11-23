@@ -41,7 +41,7 @@ mvn spring-boot run
 4. Watch for the notification on the bottom right and alow it to open the application in a new browser tab. Note that you need to hit `ENTER` on your keyboard after clicking the button.
 <br>![](/exercises/ex0/images/open_app_in_tab.png)
 
-Did the web shop open in a new brower tab? Congratulations, you completed this section and can now run the exercise app in your IDE. This allows you easy review and debugging while coding.
+Did the web shop open in a new brower tab? Congratulations, you completed this section and can now run the exercise app in your IDE. This allows you easy review and debugging while coding the exercise.
 
 Note that these steps did not deploy the application on SAP Cloud Platform. Your started application will be only accessible as long as you keep it running in your IDE.
 
