@@ -29,8 +29,8 @@ After [registering your trial account](https://www.youtube.com/watch?v=n5luSQKYv
     - Deploy the web shop to SAP Cloud Platform
 - [Exercise 1 - Loading products from SAP S/4HANA Cloud](exercises/ex1/)
     - [Implement the products controller](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Configure the destination locally](exercises/ex1#exercise-12-sub-exercise-2-description)
-    - Configure the destination on SAP Cloud Platform
+    - [Configure the SAP S/4HANA destination in your IDE](exercises/ex1#exercise-12-sub-exercise-2-description)
+    - Configure the SAP S/4HANA destination on SAP Cloud Platform
 - [Exercise 2 - Placing the order with SAP S/4HANA Cloud](exercises/ex2/)
     - [Implement the orders controller](exercises/ex2#exercise-21-sub-exercise-1-description)
     - [Reuse the destination configurations from exercise 1](exercises/ex2#exercise-22-sub-exercise-2-description)
