@@ -1,42 +1,59 @@
-# Exercise 2 - Exercise 2 Description
+# Exercise 2 - Placing the order with SAP S/4HANA Cloud
 
 In this exercise, we will create...
 
-## Exercise 2.1 Sub Exercise 1 Description
+## Implement the orders controller
 
 After completing these steps you will have created...
 
-1. Click here.
-<br>![](/exercises/ex2/images/02_01_0010.png)
+1. Open the class `SalesOrderController` in your IDE and locate the method `placeOrder()`.
 
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello ABAP World! | ). 
+2.	Insert this lines of code as method implementation.
+```java
+		String salesOrderType = "OR"; // standard order
+		String soldToParty = "17100001"; // domestic customer
+		HttpDestination destination = DestinationAccessor.getDestination("S4HANA").asHttp();
+		
+		SalesOrder salesOrder = buildSalesOrder(webShopOrder, salesOrderType, soldToParty);
+		ModificationResponse<SalesOrder> s4response = new DefaultSalesOrderService()
+				.createSalesOrder(salesOrder)
+				.executeRequest(destination);
+
+		return ResponseEntity.status(s4response.getResponseStatusCode()).build();
 ```
 
+3. Make sure there are no compile errors and save the file by hitting `CTRL + S` on your keyboard.
 
 
-## Exercise 2.2 Sub Exercise 2 Description
+## Configure the SAP S/4HANA Cloud destination in your IDE
 
-After completing these steps you will have...
+If you have completed [Exercise 1 - Loading products from SAP S/4HANA Cloud](exercises/ex1/) there is no need to configure anything as the SAP S/4HANA Cloud destination is already configured.
 
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc = 0.
-    response->set_status( i_code = 200
-                     i_reason = 'Everything is fine').
-    RETURN.
-  ENDIF.
-
+1. Run the application in your IDE.
+```
+cd ~/projects/teched2020-DT261/webshop
+mvn spring-boot:run
 ```
 
-2.	Click here.
-<br>![](/exercises/ex2/images/02_02_0010.png)
+Now the placed orders will be posted to SAP S/4HANA Cloud.
+
+
+## Configure the SAP S/4HANA Cloud destination on SAP Cloud Platform
+
+If you have completed [Exercise 1 - Loading products from SAP S/4HANA Cloud](exercises/ex1/) there is no need to configure anything as the SAP S/4HANA Cloud destination is already configured.
+
+1. Deploy the application by running the following commands in the terminal.
+```
+cd ~/projects/teched2020-DT261/webshop
+mvn clean package
+cf push
+```
+
+If you open the deployed application in a new browser tab and place an order, it will be posted to SAP S/4HANA Cloud.
 
 ## Summary
 
 You've now ...
 
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
+
