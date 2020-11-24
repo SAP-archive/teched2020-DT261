@@ -1,10 +1,10 @@
 # Exercise 2 - Placing the order with SAP S/4HANA Cloud
 
-In this exercise, we will create...
+In this exercise, you will implement an API call to SAP S/4HANA Cloud to post orders.
 
 ## Implement the orders controller
 
-After completing these steps you will have created...
+After completing these steps you will have the code using SAP Cloud SDK for the API call.
 
 1. Open the class `SalesOrderController` in your IDE and locate the method `placeOrder()`.
 
@@ -53,7 +53,7 @@ If you open the deployed application in a new browser tab and place an order, it
 
 ## Summary
 
-You've now ...
+Your web shop is now posting new orders to SAP S/4HANA Cloud. You could reuse the destination configurations from the previous exercise as you are connecting to the same system.
 
-Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
+Continue to [Exercise 3 - Loading promotions from SAP Promotion Pricing](../ex3/README.md)
 
