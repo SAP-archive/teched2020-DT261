@@ -28,7 +28,7 @@ After [registering your trial account](https://www.youtube.com/watch?v=n5luSQKYv
     - Run the web shop in your IDE
     - Deploy the web shop to SAP Cloud Platform
 - [Exercise 1 - Loading products from SAP S/4HANA Cloud](exercises/ex1/)
-    - [mplement the products controller
+    - Implement the products controller
     - Configure the SAP S/4HANA destination in your IDE
     - Configure the SAP S/4HANA destination on SAP Cloud Platform
 - [Exercise 2 - Placing the order with SAP S/4HANA Cloud](exercises/ex2/)
@@ -37,8 +37,8 @@ After [registering your trial account](https://www.youtube.com/watch?v=n5luSQKYv
 - [Exercise 3 - Loading promotions from SAP Promotion Pricing](exercises/ex3/)
     - Generate the client library
     - Implement the promotions controller
-    - Configure the destination locally
-    - Configure the destination on SAP Cloud Platform
+    - Configure the SAP Promotion Pricing destination in your IDE
+    - Configure the SAP Promotion Pricing destination on SAP Cloud Platform
 
 ## How to obtain support
 
