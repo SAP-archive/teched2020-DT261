@@ -74,4 +74,4 @@ Now you have deployed your application on SAP Cloud Platform and can access it u
 ## Summary
 
 Now that you have set up your IDE, run the application in the IDE, and deployed the application to SAP Cloud Platform, you are ready to start coding.
-Continue to - [Exercise 1 - Exercise 1 Description](../ex1/README.md)
+Continue to - [Exercise 1 - Loading products from SAP S/4HANA Cloud](../ex1/README.md)
