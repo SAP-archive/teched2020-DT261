@@ -27,7 +27,7 @@ After completing these steps you will have the code using SAP Cloud SDK for the 
 
 ## Configure the SAP S/4HANA Cloud destination in your IDE
 
-If you have completed [Exercise 1 - Loading products from SAP S/4HANA Cloud](exercises/ex1/) there is no need to configure anything as the SAP S/4HANA Cloud destination is already configured.
+If you have completed [Exercise 1 - Loading products from SAP S/4HANA Cloud](../ex1/) there is no need to configure anything as the SAP S/4HANA Cloud destination is already configured.
 
 1. Run the application in your IDE.
 ```
@@ -40,7 +40,7 @@ Now the placed orders will be posted to SAP S/4HANA Cloud.
 
 ## Configure the SAP S/4HANA Cloud destination on SAP Cloud Platform
 
-If you have completed [Exercise 1 - Loading products from SAP S/4HANA Cloud](exercises/ex1/) there is no need to configure anything as the SAP S/4HANA Cloud destination is already configured.
+If you have completed [Exercise 1 - Loading products from SAP S/4HANA Cloud](../ex1/) there is no need to configure anything as the SAP S/4HANA Cloud destination is already configured.
 
 1. Deploy the application by running the following commands in the terminal.
 ```
