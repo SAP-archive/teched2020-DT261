@@ -1,10 +1,10 @@
 # Exercise 1 - Loading products from SAP S/4HANA Cloud
 
-In this exercise, we will create...
+In this exercise, you will implement an API call to SAP S/4HANA Cloud using the SAP Cloud SDK toolkit. Also, you will configure a destination in your IDE and on SAP Cloud Platform. After completing the steps, your web shop application will load the available products from the SAP S/4HANA Cloud system.
 
 ## Implement the products controller
 
-After completing these steps you will have created...
+First you need to write the program code for the API call.
 
 1. Open the class ProductsController in your IDE and locate the method `getProducts()`.
 
@@ -33,7 +33,7 @@ After completing these steps you will have created...
 
 ## Configure the SAP S/4HANA Cloud destination in your IDE
 
-After completing these steps you will have...
+After completing these steps you will be able to run the example application in your IDE and access the SAP S/4HANA Cloud system.
 
 1. Run the following command in the terminal view.
 ```
@@ -49,6 +49,8 @@ mvn spring-boot:run
 
 
 ## Configure the SAP S/4HANA Cloud destination on SAP Cloud Platform
+
+After completing these steps you will be able to run the example application on SAP Cloud Platform and access the SAP S/4HANA Cloud system.
 
 1. Create a destination service instance by running the following command in the terminal. Let's call the service instance `destservice`.
 ```
@@ -76,7 +78,7 @@ If you open the deployed application in a new browser tab. You will see the prod
 
 ## Summary
 
-You've now ...
+You've now built an API call to load some data from SAP S/4HANA Cloud.
 
-Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
+Continue to [Exercise 2 - Placing the order with SAP S/4HANA Cloud](../ex2/README.md).
 
