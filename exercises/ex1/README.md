@@ -57,17 +57,17 @@ After completing these steps you will be able to run the example application on 
 cf create-service destination lite destservice
 ```
 
-3. Bind the destination service instance `destservice` created in the above step to the `webshop` application. Note that this step will only work if you have already deployed the web shop like described in the [Getting Started](exercises/ex0/) exercise.
+2. Bind the destination service instance `destservice` created in the above step to the `webshop` application. Note that this step will only work if you have already deployed the web shop like described in the [Getting Started](exercises/ex0/) exercise.
 ```
 cf bind-service webshop destservice
 ```
 
-4. Configure the SAP S/4HANA Cloud connection details. Open the SAP Cloud Platform Cockpit and navigate to the subaccount overview page, select `Destinations` from the menu on the left, then click `New Destination`. The destination configuration will appear. Enter the following details and click `Save`.
+3. Configure the SAP S/4HANA Cloud connection details. Open the SAP Cloud Platform Cockpit and navigate to the subaccount overview page, select `Destinations` from the menu on the left, then click `New Destination`. The destination configuration will appear. Enter the following details and click `Save`.
 * Name: S4HANA
 * URL: https://odata-mock-server-hilarious-tiger.cfapps.sap.hana.ondemand.com/
 <br>![](/exercises/ex1/images/configure_destination.png)
 
-5. Switch back to SAP Business Application Studio and deploy the application by running the following commands in the terminal.
+4. Switch back to SAP Business Application Studio and deploy the application by running the following commands in the terminal.
 ```
 cd ~/projects/teched2020-DT261/webshop
 mvn clean package
