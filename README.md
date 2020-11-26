@@ -13,7 +13,7 @@ Address your custom requirements in the cloud with side-by-side extensions. Leve
 You will need the following to execute our exercises.
 
 1. Trial account on SAP Cloud Platform with access to the following services
-    - Cloud Foundry
+    - [Cloud Foundry](https://account.hana.ondemand.com/)
     - SAP Business Application Studio
 
 2. A current version of Google Chrome
