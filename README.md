@@ -19,7 +19,7 @@ You will need the following to execute our exercises.
 1. A current version of Google Chrome
 
 ### Prepare upfront
-- [Registering your trial account](https://www.youtube.com/watch?v=n5luSQKYvQQ) on SAP Cloud Platform and Log In.
+- [Registering your trial account](https://www.youtube.com/watch?v=n5luSQKYvQQ) on SAP Cloud Platform and [Log In](https://account.hanatrial.ondemand.com/) to your cockpit.
 ![Login to your trial account](https://github.com/SAP-samples/teched2020-DT261/blob/main/img/login-to-account.png)
 - The Cloud Foundry environment should be enabled by default.
 ![Enable CF](https://github.com/SAP-samples/teched2020-DT261/blob/main/img/cf-enabled.png)
