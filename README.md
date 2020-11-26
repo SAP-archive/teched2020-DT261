@@ -28,7 +28,7 @@ You will need the following to execute our exercises.
 
 - By default you should be already subscribed to SAP Business Application Studio.
 ![BAS](https://github.com/SAP-samples/teched2020-DT261/blob/main/img/bas.png)
-Follow [this tutorial](https:/URL/developers.sap.com/tutorials/appstudio-onboarding.html) to enable SAP Business Application Studio.
+Follow [this tutorial](https:/URL/developers.sap.com/tutorials/appstudio-onboarding.html) if SAP Business Application Studio is not enabled.
 
 ## Exercises
 
