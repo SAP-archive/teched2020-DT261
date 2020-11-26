@@ -23,7 +23,9 @@ You will need the following to execute our exercises.
 ![Login to your trial account](https://github.com/SAP-samples/teched2020-DT261/blob/main/img/login-to-account.png)
 - The Cloud Foundry environment should be enabled by default.
 ![Enable CF](https://github.com/SAP-samples/teched2020-DT261/blob/main/img/cf-enabled.png)
-- If it's not [Enable CF](https://help.sap.com/viewer/a96b1df8525f41f79484717368e30626/Cloud/en-US/dc18bac42270468d84b6c030a668e003.html)
+- If it's not [Enable Cloud Foundry](https://help.sap.com/viewer/a96b1df8525f41f79484717368e30626/Cloud/en-US/dc18bac42270468d84b6c030a668e003.html)
+![Enable CF](https://github.com/SAP-samples/teched2020-DT261/blob/main/img/enable-cf.png)
+
 - Follow [this tutorial](https://developers.sap.com/tutorials/appstudio-onboarding.html) to enable SAP Business Application Studio.
 
 ## Exercises
