@@ -78,7 +78,16 @@ First you need to write the program code for the API call.
 	}
 ```
 
-4. Add the imports for the classes of the newly generated client library. 
+4. Add the imports for the classes of the newly generated client library.
+```java
+import com.sap.cloud.sdk.generated.promopricing.api.CalculationApi;
+import com.sap.cloud.sdk.generated.promopricing.model.LineItemDomainSpecific;
+import com.sap.cloud.sdk.generated.promopricing.model.Percent.ActionEnum;
+import com.sap.cloud.sdk.generated.promopricing.model.PriceCalculate;
+import com.sap.cloud.sdk.generated.promopricing.model.PriceCalculateResponse;
+import com.sap.cloud.sdk.generated.promopricing.model.ShoppingBasketBase;
+```
+
 4. Make sure there are no compile errors and save the file by hitting `CTRL + S` on your keyboard.
 
 
