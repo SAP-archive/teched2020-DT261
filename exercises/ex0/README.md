@@ -7,10 +7,10 @@ First you will make your IDE ready and import the exercise application so that y
 
 1. Open SAP Business Application Studio as described in the prerequisites section.
 
-2. Create a new dev space using the displayed button. Give it a name, then select `SAP Cloud Business Application`, and click `Create Dev Space`.  
+2. Create a new dev space using the displayed button. Give it a name, then select `SAP Cloud Business Application`, and click `Create Dev Space`.
 <br>![](/exercises/ex0/images/dev_space_creation.png)
 
-3. Wait for the new dev space to start. Once it is in the state `RUNNING`, click the space name to launch the IDE.  
+3. Wait for the new dev space to start. Once it is in the state `RUNNING`, click the space name to launch the IDE.
 <br>![](/exercises/ex0/images/dev_space_running_state.png)
 
 4. Open a new browser tab and navigate to the [exercise repository address](https://github.com/SAP-samples/teched2020-DT261). Copy the repository link so that you can clone it in the IDE. Mind, you have to select `HTTPS` instead of `SSH`.
@@ -41,7 +41,7 @@ mvn spring-boot:run
 4. Watch for the notification on the bottom right and alow it to open the application in a new browser tab. Note that you need to hit `ENTER` on your keyboard after clicking the button.
 <br>![](/exercises/ex0/images/open_app_in_tab.png)
 
-Did the web shop open in a new brower tab? If not, make sure to allow pop-up when chrome asks for it. 
+Did the web shop open in a new brower tab? If not, make sure to allow pop-up when chrome asks for it.
 Congratulations, you have completed this section and can now run the exercise app in your IDE. This allows you to easily review and debug while coding the exercise.
 
 Note that these steps did not deploy the application on SAP Cloud Platform. Your started application will be only accessible as long as you keep it running in your IDE.
@@ -61,6 +61,10 @@ cf login
 ```
 
 The command will ask you to provide the API endpoint copied in the previous step, as well as your credentials. Make sure to target the correct Cloud Fondry org and space where you want to deploy the exercise app. Note that for this session, we are using the org `TechEd` and space `2020`.
+
+The result will look similar to this:
+
+![cf login](/exercises/ex0/images/cf-login.png)
 
 3. Make sure your terminal is in your workspace directory `~/projects/teched2020-DT261/webshop` and run the following command.
 ```

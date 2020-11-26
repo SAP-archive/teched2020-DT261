@@ -20,14 +20,14 @@ You will need the following to execute our exercises.
 
 ### Prepare upfront
 - [Registering your trial account](https://www.youtube.com/watch?v=n5luSQKYvQQ) on SAP Cloud Platform and [Log In](https://account.hanatrial.ondemand.com/) to your cockpit.
-![Login to your trial account](https://github.com/SAP-samples/teched2020-DT261/blob/main/img/login-to-account.png)
+![Login to your trial account](img/login-to-account.png)
 - The Cloud Foundry environment should be enabled by default.
-![Enable CF](https://github.com/SAP-samples/teched2020-DT261/blob/main/img/cf-enabled.png)
+![Enable CF](img/cf-enabled.png)
 - If it's not [Enable Cloud Foundry](https://help.sap.com/viewer/a96b1df8525f41f79484717368e30626/Cloud/en-US/dc18bac42270468d84b6c030a668e003.html)
-![Enable CF](https://github.com/SAP-samples/teched2020-DT261/blob/main/img/enable-cf.png)
+![Enable CF](img/enable-cf.png)
 
 - By default you should be already subscribed to SAP Business Application Studio.
-![BAS](https://github.com/SAP-samples/teched2020-DT261/blob/main/img/bas.png)
+![BAS](img/bas.png)
 Follow [this tutorial](https:/URL/developers.sap.com/tutorials/appstudio-onboarding.html) if SAP Business Application Studio is not enabled.
 
 ## Exercises
