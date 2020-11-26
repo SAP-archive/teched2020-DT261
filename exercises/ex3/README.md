@@ -130,4 +130,4 @@ Now you can open the deployed application in a new browser tab.
 
 ## Summary
 
-You've now ...
+You've now implemented the API call to SAP Omnichannel Promotion Pricing. To achieve this, you downloaded the API specification from SAP API Business Hub and used the SAP Cloud SDK client library generator to generate the classes for the API call. Finally you configured the destination in your IDE and on SAP Cloud Platform. 
