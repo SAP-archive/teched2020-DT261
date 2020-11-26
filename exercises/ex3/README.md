@@ -48,7 +48,7 @@ Now you have generated the client library for SAP Omnichannel Promotion Pricing.
 
 ## Implement the promotions controller
 
-First you need to write the program code for the API call.
+Next you need to write the program code for the API call.
 
 1. Open the class PromotionController in your IDE and locate the method `calculatePromotion()`.
 
