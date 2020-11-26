@@ -24,22 +24,8 @@ public class ProductsController {
 
 	@RequestMapping(method = RequestMethod.GET)
 	public ResponseEntity<WebShopProduct[]> getProducts() {
-		String productGroup = "A001"; // On Account Billed
-		String productType = "HAWA"; // Trading Goods
-		HttpDestination destination = DestinationAccessor.getDestination("S4HANA").asHttp();
-		String shopLanguage = "EN";
-		
-		List<Product> s4Products = new DefaultProductMasterService().getAllProduct()
-				.select(Product.PRODUCT,
-						Product.TO_DESCRIPTION,
-						Product.TO_VALUATION.select(ProductValuation.STANDARD_PRICE))
-				.filter(Product.PRODUCT_GROUP.eq(productGroup)
-						.and(Product.PRODUCT_TYPE.eq(productType)))
-				.executeRequest(destination);
-
-		List<WebShopProduct> products = transformProducts(s4Products, shopLanguage);
-
-		return ResponseEntity.ok(products.toArray(new WebShopProduct[products.size()]));
+		WebShopProduct[] products = { new WebShopProduct("DUMMY", "Dummy Product", new BigDecimal(0)) };
+		return ResponseEntity.ok(products);
 	}
 
 	private List<WebShopProduct> transformProducts(List<Product> s4Products, String shopLanguage) {
