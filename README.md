@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2020 session called DT261 - Extend SAP S/4HANA to meet unique business needs – the cloud-native way!  
+This repository contains the material for the SAP TechEd 2020 session called DT261 - Extend SAP S/4HANA to meet unique business needs – the cloud-native way!
 
 ## Overview
 
@@ -19,8 +19,11 @@ You will need the following to execute our exercises.
 1. A current version of Google Chrome
 
 ### Prepare upfront
-After [registering your trial account](https://www.youtube.com/watch?v=n5luSQKYvQQ) on SAP Cloud Platform and Log In.
-- The Cloud Foundry environment should be enabled by default. If it's not [Enable Cloud Foundry](https://help.sap.com/viewer/a96b1df8525f41f79484717368e30626/Cloud/en-US/dc18bac42270468d84b6c030a668e003.html)
+- [Registering your trial account](https://www.youtube.com/watch?v=n5luSQKYvQQ) on SAP Cloud Platform and Log In.
+![Login to your trial account](https://github.com/SAP-samples/teched2020-DT261/blob/main/img/login-to-account.png)
+- The Cloud Foundry environment should be enabled by default.
+![Enable CF](https://github.com/SAP-samples/teched2020-DT261/blob/main/img/cf-enabled.png)
+- If it's not [Enable CF](https://help.sap.com/viewer/a96b1df8525f41f79484717368e30626/Cloud/en-US/dc18bac42270468d84b6c030a668e003.html)
 - Follow [this tutorial](https://developers.sap.com/tutorials/appstudio-onboarding.html) to enable SAP Business Application Studio.
 
 ## Exercises
