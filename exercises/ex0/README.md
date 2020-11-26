@@ -54,10 +54,13 @@ To stop the application, close the browser tab, return to the terminal and hit `
 1. Open your SAP Cloud Platform Cockpit in a new browser tab and navigate to the subaccount overview page. Locate the section `Cloud Foundry` as described in the prerequisites. Copy the API Endpoint URL.
 <br>![](/exercises/ex0/images/copy_api_endpoint.png)
 
-2. Switch back to SAP Business Application Studio and run the following command in the terminal. The command will run in interactive mode and you will be asked to provide the API endpoint copied in the above step, as well as your credentials. Make sure to target the correct Cloud Fondry org and space where you want to deploy the exercise app. Note that for this session, we are using the org `TechEd` and space `2020`.
+2. Switch back to SAP Business Application Studio and run the following command in the terminal.
+
 ```
 cf login
 ```
+
+The command will ask you to provide the API endpoint copied in the previous step, as well as your credentials. Make sure to target the correct Cloud Fondry org and space where you want to deploy the exercise app. Note that for this session, we are using the org `TechEd` and space `2020`.
 
 3. Make sure your terminal is in your workspace directory `~/projects/teched2020-DT261/webshop` and run the following command.
 ```
