@@ -4,7 +4,7 @@ In this exercise, you will implement an API call to SAP Omnichannel Promotion Pr
 
 ## Generate the client library
 
-1. Open the [SAP Omnichannel Promotion Pricing page on SAP API Business Hub](https://api.sap.com/api/PriceCalculation/overview) and log on. Ask your instructor if you don't have credentials for SAP API Business Hub. Click `Download Specification` and select `YAML` from the menu. Save the downloaded file as `PriceCalculation.yaml`.
+1. Open the [SAP Omnichannel Promotion Pricing page on SAP API Business Hub](https://api.sap.com/api/PriceCalculation/overview) and log on. Click `Download Specification` and select `YAML` from the menu. Save the downloaded file as `PriceCalculation.yaml`.
 <br>![](/exercises/ex3/images/download_api_spec.png)
 
 2. Create a new subdirectory of `application` in your IDE and call it `api-specs`. Right-click the new directory and select `Upload Files...`, then upload the file `PriceCalculation.yaml` from your computer.
