@@ -26,7 +26,9 @@ You will need the following to execute our exercises.
 - If it's not [Enable Cloud Foundry](https://help.sap.com/viewer/a96b1df8525f41f79484717368e30626/Cloud/en-US/dc18bac42270468d84b6c030a668e003.html)
 ![Enable CF](https://github.com/SAP-samples/teched2020-DT261/blob/main/img/enable-cf.png)
 
-- Follow [this tutorial](https://developers.sap.com/tutorials/appstudio-onboarding.html) to enable SAP Business Application Studio.
+- By default you should be already subscribed to SAP Business Application Studio.
+![BAS](https://github.com/SAP-samples/teched2020-DT261/blob/main/img/bas.png)
+Follow [this tutorial](https:/URL/developers.sap.com/tutorials/appstudio-onboarding.html) to enable SAP Business Application Studio.
 
 ## Exercises
 
