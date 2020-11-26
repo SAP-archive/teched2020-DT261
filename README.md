@@ -16,10 +16,12 @@ You will need the following to execute our exercises.
     - [Cloud Foundry](https://account.hana.ondemand.com/)
     - SAP Business Application Studio
 
-2. A current version of Google Chrome
+1. A current version of Google Chrome
 
-#### Prepare upfront
-After [registering your trial account](https://www.youtube.com/watch?v=n5luSQKYvQQ) on SAP Cloud Platform, [enable Cloud Foundry](https://help.sap.com/viewer/a96b1df8525f41f79484717368e30626/Cloud/en-US/dc18bac42270468d84b6c030a668e003.html), and follow [this tutorial](https://developers.sap.com/tutorials/appstudio-onboarding.html) to enable SAP Business Application Studio.
+### Prepare upfront
+After [registering your trial account](https://www.youtube.com/watch?v=n5luSQKYvQQ) on SAP Cloud Platform
+- [Enable Cloud Foundry](https://help.sap.com/viewer/a96b1df8525f41f79484717368e30626/Cloud/en-US/dc18bac42270468d84b6c030a668e003.html)
+- Follow [this tutorial](https://developers.sap.com/tutorials/appstudio-onboarding.html) to enable SAP Business Application Studio.
 
 ## Exercises
 
