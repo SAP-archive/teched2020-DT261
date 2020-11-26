@@ -35,7 +35,7 @@ In this section, you will run the exercise application in your IDE. This is very
 2. Change to the `application` subdirectory and run Spring Boot.
 ```
 cd application
-mvn spring-boot run
+mvn spring-boot:run
 ```
 
 4. Watch for the notification on the bottom right and alow it to open the application in a new browser tab. Note that you need to hit `ENTER` on your keyboard after clicking the button.
