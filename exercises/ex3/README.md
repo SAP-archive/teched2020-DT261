@@ -5,6 +5,46 @@ In this exercise, you will implement an API call to SAP Omnichannel Promotion Pr
 ## Generate the client library
 
 1. Open the [SAP Omnichannel Promotion Pricing page on SAP API Business Hub](https://api.sap.com/api/PriceCalculation/overview) and log on. Ask your instructor if you don't have credentials for SAP API Business Hub. Click `Download Specification` and select `YAML` from the menu. Save the downloaded file as `PriceCalculation.yaml`.
+<br>![](/exercises/ex3/images/download_api_spec.png)
+
+2. Create a new subdirectory of `application` in your IDE and call it `api-specs`. Right-click the new directory and select `Upload Files...`, then upload the file `PriceCalculation.yaml` from your computer.
+<br>![](/exercises/ex3/images/upload_api_spec.png)
+
+3. Open the `pom.xml` of your application. Note that there are two files named `pom.xml` - one for the parent, and one for the application itself. You need to open the latter one.
+
+4. Add the following client library generator plugin configuration at the end of the `plugins` section of your `pom.xml`.
+```xml
+			<plugin>
+			    <groupId>com.sap.cloud.sdk.datamodel</groupId>
+			    <artifactId>rest-generator-maven-plugin</artifactId>
+			    <version>3.34.0</version>
+			    <configuration>
+			        <inputSpec>${project.basedir}/api-specs/PriceCalculation.yaml</inputSpec>
+			        <apiPackage>com.sap.cloud.sdk.generated.promopricing.api</apiPackage>
+			        <modelPackage>com.sap.cloud.sdk.generated.promopricing.model</modelPackage>
+			        <outputDirectory>${project.basedir}</outputDirectory>
+			        <apiMaturity>released</apiMaturity>
+			    </configuration>
+			    <executions>
+			        <execution>
+			            <id>generate-pp-client</id>
+			            <goals>
+			                <goal>generate</goal>
+			            </goals>
+			        </execution>
+			    </executions>
+			</plugin>
+```
+<br>![](/exercises/ex3/images/maven_plugin.png)
+
+
+5. Run the client library generator by executing the following commands in your terminal.
+```
+cd ~/projects/teched2020-DT261/webshop/application
+mvn rest-generator:generate@generate-pp-client
+```
+
+Now you have generated the client library for SAP Omnichannel Promotion Pricing.
 
 ## Implement the promotions controller
 
@@ -24,7 +64,22 @@ First you need to write the program code for the API call.
 		return ResponseEntity.ok(response);
 ```
 
-3. Make sure there are no compile errors and save the file by hitting `CTRL + S` on your keyboard.
+3. Add the method `convertResponse()` with the following implementation.
+```java
+	private PromotionResponse convertResponse(PriceCalculateResponse ppResponse) {
+		ShoppingBasketBase shoppingBasket = ppResponse.getPriceCalculateBody().get(0).getShoppingBasket();
+		BigDecimal promoValue = new BigDecimal(0);
+		for(LineItemDomainSpecific lineItem: shoppingBasket.getLineItem()) {
+			promoValue = promoValue.add(lineItem.getSale().getRetailPriceModifier().get(0).getPercent().getValue());
+		}
+		promoValue = promoValue.divide(new BigDecimal(shoppingBasket.getLineItem().size()));
+
+		return new PromotionResponse(ActionEnum.SUBTRACT.toString(), promoValue);
+	}
+```
+
+4. Add the imports for the classes of the newly generated client library. 
+4. Make sure there are no compile errors and save the file by hitting `CTRL + S` on your keyboard.
 
 
 ## Configure the SAP Promotion Pricing destination in your IDE
@@ -38,7 +93,7 @@ export destinations='[{"type": "HTTP", "name": "S4HANA", "url": "https://odata-m
 
 3. Run the application in your IDE to see the changes.
 ```
-cd ~/projects/teched2020-DT261/webshop
+cd ~/projects/teched2020-DT261/webshop/application
 mvn spring-boot:run
 ```
 
@@ -57,7 +112,7 @@ After completing these steps you will be able to run the example application on 
 5. Switch back to SAP Business Application Studio and deploy the application by running the following commands in the terminal.
 ```
 cd ~/projects/teched2020-DT261/webshop
-mvn clean package
+mvn package
 cf push
 ```
 
