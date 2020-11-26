@@ -60,7 +60,7 @@ To stop the application, close the browser tab, return to the terminal and hit `
 cf login
 ```
 
-The command will ask you to provide the API endpoint copied in the previous step, as well as your credentials. Make sure to target the correct Cloud Fondry org and space where you want to deploy the exercise app. Note that for this session, we are using the org `TechEd` and space `2020`.
+The command will ask you to provide the API endpoint copied in the previous step, as well as your credentials. Make sure to target the correct Cloud Fondry org and space where you want to deploy the exercise app. In our screen shot, we are using the org `TechEd` and space `2020`. An org should be already created in your account while activating Cloud Foundry. If you don't have any spaces, click the `Create Space` in the SAP Cloud Platform cockpit.
 
 The result will look similar to this:
 
@@ -69,7 +69,7 @@ The result will look similar to this:
 3. Make sure your terminal is in your workspace directory `~/projects/teched2020-DT261/webshop` and run the following command.
 ```
 cd ~/projects/teched2020-DT261/webshop
-mvn clean package
+mvn package
 cf push
 ```
 
