@@ -1,8 +1,11 @@
-# Exercise 3 - Loading promotions from SAP Promotion Pricing
+# Exercise 3 - Loading promotions from SAP Omnichannel Promotion Pricing
 
-In this exercise, we will create...
+In this exercise, you will implement an API call to SAP Omnichannel Promotion Pricing by generating the client library from the API specification available on SAP API Business Hub.
 
 ## Generate the client library
+
+1. Open the [SAP Omnichannel Promotion Pricing page on SAP API Business Hub](https://api.sap.com/api/PriceCalculation/overview) and log on. Ask your instructor if you don't have credentials for SAP API Business Hub. Click `Download Specification` and select `YAML` from the menu. Save the downloaded file as `PriceCalculation.yaml`.
+
 ## Implement the promotions controller
 
 First you need to write the program code for the API call.
