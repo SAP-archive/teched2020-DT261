@@ -42,7 +42,7 @@ export destinations='[{"type": "HTTP", "name": "S4HANA", "url": "https://odata-m
 
 3. Run the application in your IDE to see the changes.
 ```
-cd ~/projects/teched2020-DT261/webshop
+cd ~/projects/teched2020-DT261/webshop/application
 mvn spring-boot:run
 ```
 <br>![](/exercises/ex1/images/product_list_page.png)
@@ -70,7 +70,7 @@ cf bind-service webshop destservice
 4. Switch back to SAP Business Application Studio and deploy the application by running the following commands in the terminal.
 ```
 cd ~/projects/teched2020-DT261/webshop
-mvn clean package
+mvn package
 cf push
 ```
 
