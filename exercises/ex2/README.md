@@ -8,7 +8,7 @@ After completing these steps you will have the code using SAP Cloud SDK for the 
 
 1. Open the class `SalesOrderController` in your IDE and locate the method `placeOrder()`.
 
-2.	Insert this lines of code as method implementation.
+2.	Insert the following lines of code as method implementation.
 ```java
 		String salesOrderType = "OR"; // standard order
 		String soldToParty = "17100001"; // domestic customer
