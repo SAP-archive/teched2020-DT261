@@ -8,7 +8,7 @@ First you need to write the program code for the API call.
 
 1. Open the class ProductsController in your IDE and locate the method `getProducts()`.
 
-2.	Insert this lines of code as method implementation.
+2.	Insert the following lines of code as method implementation.
 ```java
 		String productGroup = "A001"; // On Account Billed
 		String productType = "HAWA"; // Trading Goods
@@ -40,7 +40,7 @@ After completing these steps you will be able to run the example application in 
 export destinations='[{"type": "HTTP", "name": "S4HANA", "url": "https://odata-mock-server-hilarious-tiger.cfapps.sap.hana.ondemand.com/"}]'
 ```
 
-3. Run the application in your IDE to see the changes.
+2. Run the application in your IDE to see the changes.
 ```
 cd ~/projects/teched2020-DT261/webshop/application
 mvn spring-boot:run
