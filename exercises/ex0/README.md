@@ -13,10 +13,10 @@ First you will make your IDE ready and import the exercise application so that y
 3. Wait for the new dev space to start. Once it is in the state `RUNNING`, click the space name to launch the IDE.
 <br>![](/exercises/ex0/images/dev_space_running_state.png)
 
-4. Open a new browser tab and navigate to the [exercise repository address](https://github.com/SAP-samples/teched2020-DT261). Copy the repository link so that you can clone it in the IDE. Mind, you have to select `HTTPS` instead of `SSH`.
-<br>![](/exercises/ex0/images/copy_repo_url.png)
-
-5. Return to the browser tab with the running IDE from step 3. Click the link `Clone from Git` in the Welcome view, then paste the copied repository URL in the text field, and hit `ENTER` on your keyboard.
+5. Once the Business Application Studio has opened, click the link `Clone from Git` in the Welcome view, then paste the following git repository URL in the text field, and hit `ENTER` on your keyboard.
+```
+https://github.com/SAP-samples/teched2020-DT261.git
+```
 <br>![](/exercises/ex0/images/clone.png)
 
 6. Click the button `Open Workspace`. In the dialog `Open Workspace`, navigate to `projects/teched2020-DT261/webshop` and click `Open`.
