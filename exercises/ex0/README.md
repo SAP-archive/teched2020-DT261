@@ -13,13 +13,13 @@ First you will make your IDE ready and import the exercise application so that y
 3. Wait for the new dev space to start. Once it is in the state `RUNNING`, click the space name to launch the IDE.
 <br>![](/exercises/ex0/images/dev_space_running_state.png)
 
-5. Once the Business Application Studio has opened, click the link `Clone from Git` in the Welcome view, then paste the following git repository URL in the text field, and hit `ENTER` on your keyboard.
+4. Once the Business Application Studio has opened, click the link `Clone from Git` in the Welcome view, then paste the following git repository URL in the text field, and hit `ENTER` on your keyboard.
 ```
 https://github.com/SAP-samples/teched2020-DT261.git
 ```
 <br>![](/exercises/ex0/images/clone.png)
 
-6. Click the button `Open Workspace`. In the dialog `Open Workspace`, navigate to `projects/teched2020-DT261/webshop` and click `Open`.
+5. Click the button `Open Workspace`. In the dialog `Open Workspace`, navigate to `projects/teched2020-DT261/webshop` and click `Open`.
 <br>![](/exercises/ex0/images/open_workspace.png)
 
 Have a look at the view `EXPLORER` on the left. If it looks like this, you have successfully completed this section and your IDE is set up.
