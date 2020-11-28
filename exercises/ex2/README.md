@@ -29,7 +29,7 @@ After completing these steps you will have the code using SAP Cloud SDK for the 
 
 If you have completed [Exercise 1 - Loading products from SAP S/4HANA Cloud](../ex1/) there is no need to configure anything as the SAP S/4HANA Cloud destination is already configured.
 
-1. Run the application in your IDE.
+4. Run the application in your IDE.
 ```
 cd ~/projects/teched2020-DT261/webshop/application
 mvn spring-boot:run
@@ -42,7 +42,7 @@ Now the placed orders will be posted to SAP S/4HANA Cloud.
 
 If you have completed [Exercise 1 - Loading products from SAP S/4HANA Cloud](../ex1/) there is no need to configure anything as the SAP S/4HANA Cloud destination is already configured.
 
-1. Deploy the application by running the following commands in the terminal.
+5. Deploy the application by running the following commands in the terminal.
 ```
 cd ~/projects/teched2020-DT261/webshop
 mvn package
