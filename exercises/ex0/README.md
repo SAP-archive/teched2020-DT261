@@ -29,16 +29,16 @@ Have a look at the view `EXPLORER` on the left. If it looks like this, you have 
 ## Run the web shop in your IDE
 In this section, you will run the exercise application in your IDE. This is very useful while coding as you will be able to have a look at your application without deploying it to SAP Cloud Platform.
 
-1. Open a terminal. It will start in your workspace directory `~/projects/teched2020-DT261/webshop`.
+6. Open a terminal. It will start in your workspace directory `~/projects/teched2020-DT261/webshop`.
 <br>![](/exercises/ex0/images/open_terminal.png)
 
-2. Change to the `application` subdirectory and run Spring Boot.
+7. Change to the `application` subdirectory and run Spring Boot.
 ```
 cd application
 mvn spring-boot:run
 ```
 
-4. Watch for the notification on the bottom right and alow it to open the application in a new browser tab. Note that you need to hit `ENTER` on your keyboard after clicking the button.
+8. Watch for the notification on the bottom right and allow it to open the application in a new browser tab. Note that you need to hit `ENTER` on your keyboard after clicking the button.
 <br>![](/exercises/ex0/images/open_app_in_tab.png)
 
 Did the web shop open in a new brower tab? If not, make sure to allow pop-up when chrome asks for it.
@@ -51,10 +51,10 @@ To stop the application, close the browser tab, return to the terminal and hit `
 
 ## Deploy the web shop to SAP Cloud Platform
 
-1. Open your SAP Cloud Platform Cockpit in a new browser tab and navigate to the subaccount overview page. Locate the section `Cloud Foundry` as described in the prerequisites. Copy the API Endpoint URL.
+9. Open your SAP Cloud Platform Cockpit in a new browser tab and navigate to the subaccount overview page. Locate the section `Cloud Foundry` as described in the prerequisites. Copy the API Endpoint URL.
 <br>![](/exercises/ex0/images/copy_api_endpoint.png)
 
-2. Switch back to SAP Business Application Studio and run the following command in the terminal.
+10. Switch back to SAP Business Application Studio and run the following command in the terminal.
 
 ```
 cf login
@@ -66,14 +66,14 @@ The result will look similar to this:
 
 ![cf login](/exercises/ex0/images/cf-login.png)
 
-3. Make sure your terminal is in your workspace directory `~/projects/teched2020-DT261/webshop` and run the following command.
+11. Make sure your terminal is in your workspace directory `~/projects/teched2020-DT261/webshop` (see first command below) and then run the subsequent commands.
 ```
 cd ~/projects/teched2020-DT261/webshop
 mvn package
 cf push
 ```
 
-4. Copy the application URL from the output of the above commands and open it it a new browser tab.
+12. Copy the application URL from the output of the above commands and open it it a new browser tab.
 <br>![](/exercises/ex0/images/copy_app_URL.png)
 
 Now you have deployed your application on SAP Cloud Platform and can access it using the URL as described above. You can also review the Cloud Foundry org and space to find more details about your application instance.
