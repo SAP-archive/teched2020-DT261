@@ -6,7 +6,8 @@ In this exercise, you will implement an API call to SAP S/4HANA Cloud using the 
 
 First you need to write the program code for the API call.
 
-1. Open the class `ProductsController` in your IDE and locate the method `getProducts()`.
+1. Open the class `ProductsController` in your IDE and locate the method `getProducts()`. You can find the Java classes in the `Explorer` view. Expand the apropriate directories like shown here.
+<br>![](/exercises/ex0/images/IDE_ready.png)
 
 2.	Insert the following lines of code as method implementation.
 ```java
