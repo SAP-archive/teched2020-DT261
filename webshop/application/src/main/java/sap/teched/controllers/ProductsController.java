@@ -23,8 +23,9 @@ import sap.teched.models.WebShopProduct;
 public class ProductsController {
 
 	@RequestMapping(method = RequestMethod.GET)
-	public ResponseEntity<WebShopProduct[]> getProducts() {
-		WebShopProduct[] products = { new WebShopProduct("DUMMY", "Dummy Product", new BigDecimal(0)) };
+	public ResponseEntity<List<WebShopProduct>> getProducts() {
+		List<WebShopProduct> products = new ArrayList<>();
+		products.add(new WebShopProduct("DUMMY", "Dummy Product", new BigDecimal(0)));
 		return ResponseEntity.ok(products);
 	}
 
