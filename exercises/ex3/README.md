@@ -2,9 +2,11 @@
 
 In this exercise, you will implement an API call to SAP Omnichannel Promotion Pricing by generating the client library from the API specification available on SAP API Business Hub.
 
+Currently, buyers in the web shop can calculate a promotion discount. The web shop always returns a discount ot 0%. We want to improve that and load promotions from SAP.
+
 ## Generate the client library
 
-1. Open the [SAP Omnichannel Promotion Pricing page on SAP API Business Hub](https://api.sap.com/api/PriceCalculation/overview) and log on. Click `Download Specification` and select `YAML` from the menu. Save the downloaded file as `PriceCalculation.yaml`.
+1. Open the [SAP Omnichannel Promotion Pricing page on SAP API Business Hub](https://api.sap.com/api/PriceCalculation/overview) and log on using your trial credentials. Click `Download Specification` and select `YAML` from the menu. Save the downloaded file as `PriceCalculation.yaml`.
 <br>![](/exercises/ex3/images/download_api_spec.png)
 
 2. Create a new subdirectory called `api-specs` within the `application` folder in your IDE (by right-clicking on the `application` folder and choosing "New Folder"). Right-click the new directory and select `Upload Files...`, then upload the file `PriceCalculation.yaml` from your computer.
@@ -12,7 +14,7 @@ In this exercise, you will implement an API call to SAP Omnichannel Promotion Pr
 
 3. Open the `pom.xml` of your application. Note that there are two files named `pom.xml` - one for the parent, and one for the application itself. You need to open the latter one.
 
-4. Add the following client library generator plugin configuration at the end of the `plugins` section of your `pom.xml`.
+4. Add the following client library generator plugin configuration at the end of the `plugins` section of your `pom.xml`. Note that the snippet must be added in the `plugins` element, which is the container of the different `plugin` configurations.
 ```xml
 			<plugin>
 			    <groupId>com.sap.cloud.sdk.datamodel</groupId>
