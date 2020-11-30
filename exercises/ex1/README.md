@@ -2,6 +2,8 @@
 
 In this exercise, you will implement an API call to SAP S/4HANA Cloud using the SAP Cloud SDK toolkit. Also, you will configure a destination in your IDE and on SAP Cloud Platform. After completing the steps, your web shop application will load the available products from the SAP S/4HANA Cloud system.
 
+Note that the web shop currently shows one single dummy product. This will be replaced by the products retrieved from SAP S/4HANA Cloud.
+
 ## Implement the products controller
 
 First you need to write the program code for the API call.
@@ -29,7 +31,7 @@ First you need to write the program code for the API call.
 		return ResponseEntity.ok(products);
 ```
 
-3. Make sure there are no compile errors and save the file by hitting `CTRL + S` on your keyboard.
+3. Make sure there are no compile errors and save the file by hitting `CTRL + S` on your keyboard. Review the implementation to see how you can use SAP Cloud SDK to construct a query and execute it on SAP S/4HANA Cloud.
 
 
 ## Configure the SAP S/4HANA Cloud destination in your IDE
@@ -40,6 +42,7 @@ After completing these steps you will be able to run the example application in 
 ```
 export destinations='[{"type": "HTTP", "name": "S4HANA", "url": "https://odata-mock-server-hilarious-tiger.cfapps.sap.hana.ondemand.com/"}]'
 ```
+Note that for this exercise we are using a mock server that behaves like SAP S/4HANA Cloud.
 
 5. Run the application in your IDE to see the changes.
 ```
@@ -48,6 +51,7 @@ mvn spring-boot:run
 ```
 <br>![](/exercises/ex1/images/product_list_page.png)
 
+Do not forget to terminate the running program by switching to the `Terminal` view and hitting `CTRL + C` on your keyboard.
 
 ## Configure the SAP S/4HANA Cloud destination on SAP Cloud Platform
 
@@ -79,7 +83,7 @@ If you open the deployed application in a new browser tab, you will see the prod
 
 ## Summary
 
-You've now built an API call to load some data from SAP S/4HANA Cloud.
+You've now built an API call to load some data from SAP S/4HANA Cloud. The web shop should now display several products instead of the product dummy that was displayed before.
 
 Continue to [Exercise 2 - Placing the order with SAP S/4HANA Cloud](../ex2/README.md).
 
