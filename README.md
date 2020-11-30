@@ -27,8 +27,9 @@ You will need the following to execute our exercises.
 ![Enable CF](img/enable-cf.png)
 
 - By default you should be already subscribed to SAP Business Application Studio.
-![BAS](img/bas.png)
-Follow [this tutorial](https://developers.sap.com/tutorials/appstudio-onboarding.html) if SAP Business Application Studio is not enabled.
+![BAS](img/bas.png)  
+
+Follow [this tutorial](https://developers.sap.com/tutorials/appstudio-onboarding.html) if SAP Business Application Studio is not enabled. Make sure you reach the last step and see the `Dev Spaces` screen.
 
 ## Exercises
 
