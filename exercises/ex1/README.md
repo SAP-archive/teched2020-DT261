@@ -25,7 +25,7 @@ First you need to write the program code for the API call.
 
 		List<WebShopProduct> products = transformProducts(s4Products, shopLanguage);
 
-		return ResponseEntity.ok(products.toArray(new WebShopProduct[products.size()]));
+		return ResponseEntity.ok(products);
 ```
 
 3. Make sure there are no compile errors and save the file by hitting `CTRL + S` on your keyboard.
