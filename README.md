@@ -28,7 +28,7 @@ You will need the following to execute our exercises.
 
 - By default you should be already subscribed to SAP Business Application Studio.
 ![BAS](img/bas.png)
-Follow [this tutorial](https:/URL/developers.sap.com/tutorials/appstudio-onboarding.html) if SAP Business Application Studio is not enabled.
+Follow [this tutorial](https://developers.sap.com/tutorials/appstudio-onboarding.html) if SAP Business Application Studio is not enabled.
 
 ## Exercises
 
