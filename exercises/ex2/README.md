@@ -39,7 +39,10 @@ mvn spring-boot:run
 
 Do not forget to terminate the running program by switching to the `Terminal` view and hitting `CTRL + C` on your keyboard.
 
-Now the placed orders will be posted to SAP S/4HANA Cloud.
+Now the placed orders will be posted to SAP S/4HANA Cloud. Note the console output printing the response status code received from SAP S/4HANA Cloud. 201 is the HTTP status code for `CREATED`.
+```
+Received response from SAP S/4HANA Cloud: HTTP 201
+```
 
 
 ## Restart the application on SAP Cloud Platform
