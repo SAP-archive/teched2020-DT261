@@ -2,7 +2,7 @@
 
 In this exercise, you will implement an API call to SAP Omnichannel Promotion Pricing by generating the client library from the API specification available on SAP API Business Hub.
 
-Currently, buyers in the web shop can calculate a promotion discount. The web shop always returns a discount ot 0%. We want to improve that and load promotions from SAP.
+Currently, buyers in the web shop can calculate a promotion discount by clicking the button in the shopping basket. The web shop always returns a discount ot 0%. We want to improve that and load promotions from SAP.
 
 ## Generate the client library
 
