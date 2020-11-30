@@ -5,7 +5,7 @@ In this exercise, you will run the web shop in your IDE, then you will package t
 ## Set up your IDE
 First you will make your IDE ready and import the exercise application so that you can start coding.
 
-1. Open SAP Business Application Studio as described in the prerequisites section.
+1. Open SAP Business Application Studio as described in [this tutorial](https://developers.sap.com/tutorials/appstudio-onboarding.html). You should see the `Dev Spaces` screen before proceeding to the next step.
 
 2. Create a new dev space using the displayed button. Give it a name, then select `SAP Cloud Business Application`, and click `Create Dev Space`.
 <br>![](/exercises/ex0/images/dev_space_creation.png)
@@ -13,7 +13,7 @@ First you will make your IDE ready and import the exercise application so that y
 3. Wait for the new dev space to start. Once it is in the state `RUNNING`, click the space name to launch the IDE.
 <br>![](/exercises/ex0/images/dev_space_running_state.png)
 
-4. Once the Business Application Studio has opened, click the link `Clone from Git` in the Welcome view, then paste the following git repository URL in the text field, and hit `ENTER` on your keyboard.
+4. Once the Business Application Studio has opened, make sure you are viewing the `Welcome` view. Close any other anouncements and popups. Click the link `Clone from Git` in the `Welcome` view, then paste the following git repository URL in the text field, and hit `ENTER` on your keyboard.
 ```
 https://github.com/SAP-samples/teched2020-DT261.git
 ```
@@ -22,7 +22,7 @@ https://github.com/SAP-samples/teched2020-DT261.git
 5. Click the button `Open Workspace`. In the dialog `Open Workspace`, navigate to `projects/teched2020-DT261/webshop` and click `Open`.
 <br>![](/exercises/ex0/images/open_workspace.png)
 
-Have a look at the view `EXPLORER` on the left. If it looks like this, you have successfully completed this section and your IDE is set up.
+Have a look at the view `EXPLORER` on the left. If you can expand the source directories to make it looks like this, you have successfully completed this section and your IDE is set up.
 <br>![](/exercises/ex0/images/IDE_ready.png)
 
 
@@ -34,7 +34,7 @@ In this section, you will run the exercise application in your IDE. This is very
 
 7. Change to the `application` subdirectory and run Spring Boot.
 ```
-cd application
+~/projects/teched2020-DT261/webshop/application
 mvn spring-boot:run
 ```
 
