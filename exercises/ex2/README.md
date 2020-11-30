@@ -18,6 +18,8 @@ After completing these steps you will have the code using SAP Cloud SDK for the 
 		ModificationResponse<SalesOrder> s4response = new DefaultSalesOrderService()
 				.createSalesOrder(salesOrder)
 				.executeRequest(destination);
+				
+		System.out.println("Received response from SAP S/4HANA Cloud: HTTP " + s4response.getResponseStatusCode());
 
 		return ResponseEntity.status(s4response.getResponseStatusCode()).build();
 ```
@@ -34,6 +36,8 @@ If you have completed [Exercise 1 - Loading products from SAP S/4HANA Cloud](../
 cd ~/projects/teched2020-DT261/webshop/application
 mvn spring-boot:run
 ```
+
+Do not forget to terminate the running program by switching to the `Terminal` view and hitting `CTRL + C` on your keyboard.
 
 Now the placed orders will be posted to SAP S/4HANA Cloud.
 
