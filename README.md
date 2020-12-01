@@ -49,6 +49,9 @@ Follow [this tutorial](https://developers.sap.com/tutorials/appstudio-onboarding
     - Implement the promotions controller
     - Configure the SAP Promotion Pricing destination in your IDE
     - Configure the SAP Promotion Pricing destination on SAP Cloud Platform
+ - [Exercise 4 - (Bonus) Setup SAP Cloud Platform Continuous Integration and Delivery](exercises/ex4/)
+     - Subscribe and configure the SAP Cloud Platform Continuous Integration and Delivery
+     - Connect the service to your git repository to automatically build, test and deploy the application
 
 ## How to obtain support
 
