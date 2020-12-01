@@ -24,7 +24,8 @@ general:
 
 ### Step-specific configuration
 steps:
-
+  mavenExecuteStaticCodeChecks:
+    maxAllowedViolations: 10
 
 ### Stage-specific configuration
 stages:
