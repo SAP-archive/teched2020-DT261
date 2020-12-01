@@ -19,6 +19,7 @@
 
 ### General project setup
 general:
+  productiveBranch: "cicd"
 
 
 ### Step-specific configuration
