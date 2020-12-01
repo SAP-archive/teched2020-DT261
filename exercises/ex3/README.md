@@ -42,7 +42,7 @@ Currently, buyers in the web shop can calculate a promotion discount by clicking
 
 5. Run the client library generator by executing the following commands in your terminal.
 ```
-cd ~/projects/teched2020-DT261/webshop/application
+cd ~/projects/teched2020-DT261/application
 mvn rest-generator:generate@generate-pp-client
 ```
 
@@ -107,7 +107,7 @@ export destinations='[{"type": "HTTP", "name": "S4HANA", "url": "https://odata-m
 
 2. Run the application in your IDE to see the changes.
 ```
-cd ~/projects/teched2020-DT261/webshop/application
+cd ~/projects/teched2020-DT261/application
 mvn spring-boot:run
 ```
 
@@ -125,7 +125,7 @@ After completing these steps you will be able to run the example application on 
 
 3. Switch back to SAP Business Application Studio and deploy the application by running the following commands in the terminal.
 ```
-cd ~/projects/teched2020-DT261/webshop
+cd ~/projects/teched2020-DT261
 mvn package
 cf push
 ```

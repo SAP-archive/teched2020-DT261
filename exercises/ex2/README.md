@@ -33,7 +33,7 @@ If you have completed [Exercise 1 - Loading products from SAP S/4HANA Cloud](../
 
 4. Run the application in your IDE.
 ```
-cd ~/projects/teched2020-DT261/webshop/application
+cd ~/projects/teched2020-DT261/application
 mvn spring-boot:run
 ```
 
@@ -51,7 +51,7 @@ If you have completed [Exercise 1 - Loading products from SAP S/4HANA Cloud](../
 
 5. Deploy the application by running the following commands in the terminal.
 ```
-cd ~/projects/teched2020-DT261/webshop
+cd ~/projects/teched2020-DT261
 mvn package
 cf push
 ```

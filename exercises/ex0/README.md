@@ -19,7 +19,7 @@ https://github.com/SAP-samples/teched2020-DT261.git
 ```
 <br>![](/exercises/ex0/images/clone.png)
 
-5. Click the button `Open Workspace`. In the dialog `Open Workspace`, navigate to `projects/teched2020-DT261/webshop` and click `Open`.
+5. Click the button `Open Workspace`. In the dialog `Open Workspace`, navigate to `projects/teched2020-DT261` and click `Open`.
 <br>![](/exercises/ex0/images/open_workspace.png)
 
 Have a look at the view `EXPLORER` on the left. If you can expand the source directories to make it looks like this, you have successfully completed this section and your IDE is set up.
@@ -29,12 +29,12 @@ Have a look at the view `EXPLORER` on the left. If you can expand the source dir
 ## Run the web shop in your IDE
 In this section, you will run the exercise application in your IDE. This is very useful while coding as you will be able to have a look at your application without deploying it to SAP Cloud Platform.
 
-6. Open a terminal. It will start in your workspace directory `~/projects/teched2020-DT261/webshop`.
+6. Open a terminal. It will start in your workspace directory `~/projects/teched2020-DT261`.
 <br>![](/exercises/ex0/images/open_terminal.png)
 
 7. Change to the `application` subdirectory and run Spring Boot.
 ```
-~/projects/teched2020-DT261/webshop/application
+cd ~/projects/teched2020-DT261/application
 mvn spring-boot:run
 ```
 
@@ -66,9 +66,9 @@ The result will look similar to this:
 
 ![cf login](/exercises/ex0/images/cf-login.png)
 
-11. Make sure your terminal is in your workspace directory `~/projects/teched2020-DT261/webshop` (see first command below) and then run the subsequent commands.
+11. Make sure your terminal is in your workspace directory `~/projects/teched2020-DT261` (see first command below) and then run the subsequent commands.
 ```
-cd ~/projects/teched2020-DT261/webshop
+cd ~/projects/teched2020-DT261
 mvn package
 cf push
 ```

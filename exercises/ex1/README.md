@@ -46,7 +46,7 @@ Note that for this exercise we are using a mock server that behaves like SAP S/4
 
 5. Run the application in your IDE to see the changes.
 ```
-cd ~/projects/teched2020-DT261/webshop/application
+cd ~/projects/teched2020-DT261/application
 mvn spring-boot:run
 ```
 <br>![](/exercises/ex1/images/product_list_page.png)
@@ -74,7 +74,7 @@ cf bind-service webshop destservice
 
 9. Switch back to SAP Business Application Studio and deploy the application by running the following commands in the terminal.
 ```
-cd ~/projects/teched2020-DT261/webshop
+cd ~/projects/teched2020-DT261
 mvn package
 cf push
 ```
