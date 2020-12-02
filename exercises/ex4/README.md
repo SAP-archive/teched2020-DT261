@@ -17,6 +17,7 @@ In this exercise, you will setup the SAP Cloud Platform Continuous Integration a
 <br>![](/exercises/ex4/images/assign_role.png)
 
 5. Go back to the overview of the subscriptions from step 1 and click on "Go to Application" on the "Continuous Integration & Delivery" tile.
+<br>![](/exercises/ex4/images/open_service.png)
 
 ## Create a new Build Job
 1. Click on "+" to create and configure a new build job.
