@@ -36,8 +36,7 @@ In this exercise, you will setup the SAP Cloud Platform Continuous Integration a
 
 5. By default the pipeline will build the project and run tests, linting as well as static code checks. You can enable additional features, such as the deployment at the end of the pipeline, by configuring them in the pipeline configuration file `.pipeline\config.yml`. You can find the corresponding information about how to enable certain features and how to configure the corresponding credentials in the [Continuous Integration & Delivery documentation](https://help.sap.com/viewer/product/CONTINUOUS_DELIVERY/Cloud/en-US). 
 
-After a successful build, your application will have been deployed to the same route you manually deployed it to before.
-However, you will also notice that the deployed application does not contain all the changes you have done during the exercise.
+Please note that the applications built in the pipeline will not contain all the changes you have done during the exercise.
 That is expected, since the URL you have provided points to the very same GitHub repository that you cloned initially.
 If you want to explore the topic further and setup a pipeline that is triggered on every change to your project, you can push the application to your own repository on GitHub and setup webhooks.
 You can get the webhook data by going back to the CICD service's dashboard, selecting the "webshop" build and clicking on "Webhook Data" on the right.
