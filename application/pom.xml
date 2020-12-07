@@ -246,6 +246,27 @@
                     </systemPropertyVariables>
                 </configuration>
             </plugin>
+
+            <plugin>
+			    <groupId>com.sap.cloud.sdk.datamodel</groupId>
+			    <artifactId>rest-generator-maven-plugin</artifactId>
+			    <version>3.34.0</version>
+			    <configuration>
+			        <inputSpec>${project.basedir}/api-specs/PriceCalculation.yaml</inputSpec>
+			        <apiPackage>com.sap.cloud.sdk.generated.promopricing.api</apiPackage>
+			        <modelPackage>com.sap.cloud.sdk.generated.promopricing.model</modelPackage>
+			        <outputDirectory>${project.basedir}</outputDirectory>
+			        <apiMaturity>released</apiMaturity>
+			    </configuration>
+			    <executions>
+			        <execution>
+			            <id>generate-pp-client</id>
+			            <goals>
+			                <goal>generate</goal>
+			            </goals>
+			        </execution>
+			    </executions>
+			</plugin>
         </plugins>
     </build>
 </project>

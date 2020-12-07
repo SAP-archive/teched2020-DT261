@@ -12,3 +12,6 @@
 **/node_modules
 **/.DS_Store
 .pipeline/commonPipelineEnvironment
+
+application/api-specs
+application/src/main/java/com/sap/cloud/sdk/generated

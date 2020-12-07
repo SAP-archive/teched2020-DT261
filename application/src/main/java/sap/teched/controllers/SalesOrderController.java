@@ -24,8 +24,18 @@ public class SalesOrderController {
 
 	@RequestMapping(method = RequestMethod.POST)
 	public ResponseEntity<?> placeOrder(@RequestBody WebShopOrder webShopOrder) {
+        String salesOrderType = "OR"; // standard order
+		String soldToParty = "17100001"; // domestic customer
+		HttpDestination destination = DestinationAccessor.getDestination("S4HANA").asHttp();
+		
+		SalesOrder salesOrder = buildSalesOrder(webShopOrder, salesOrderType, soldToParty);
+		ModificationResponse<SalesOrder> s4response = new DefaultSalesOrderService()
+				.createSalesOrder(salesOrder)
+				.executeRequest(destination);
+				
+		System.out.println("Received response from SAP S/4HANA Cloud: HTTP " + s4response.getResponseStatusCode());
 
-		return ResponseEntity.created(null).build();
+		return ResponseEntity.status(s4response.getResponseStatusCode()).build();
 	}
 
 	private SalesOrder buildSalesOrder(WebShopOrder webShopOrder, String salesOrderType, String soldToParty) {
