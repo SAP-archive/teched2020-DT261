@@ -40,7 +40,13 @@ Currently, buyers in the web shop can calculate a promotion discount by clicking
 <br>![](/exercises/ex3/images/maven_plugin.png)
 
 
-5. Run the client library generator by executing the following commands in your terminal.
+5. In order for the plugin to work, you need install its dependencies first by running:
+```
+mvn clean install
+```
+
+You will notice that this not only installs the necessary dependencies, but already calls the plugin and generates client code from the API specification, since the `rest-generator-maven-plugin` is hooked into Maven's lifecycle.
+However, you can also run the client library generator directly by executing the following commands in your terminal:
 ```
 cd ~/projects/teched2020-DT261/application
 mvn rest-generator:generate@generate-pp-client
