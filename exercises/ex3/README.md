@@ -14,7 +14,7 @@ Currently, buyers in the web shop can calculate a promotion discount by clicking
 
 3. Open the `pom.xml` of your application. Note that there are two files named `pom.xml` - one for the parent, and one for the application itself. You need to open the latter one.
 
-4. Add the following client library generator plugin configuration at the end of the `plugins` section of your `pom.xml`. Note that the snippet must be added in the `plugins` element, which is the container of the different `plugin` configurations.
+4. Add the following client library generator plugin configuration at the end of the `plugins` section of your `pom.xml`. Note that the snippet must be added in the `plugins` element, which is the container of the different `plugin` configurations. Keep in mind to save your changes by pressing `CTRL + S`. 
 ```xml
 			<plugin>
 			    <groupId>com.sap.cloud.sdk.datamodel</groupId>
