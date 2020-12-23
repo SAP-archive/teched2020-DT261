@@ -1,5 +1,7 @@
 # DT261 - Extend SAP S/4HANA to meet unique business needs – the cloud-native way!
 
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2020-DT261)](https://api.reuse.software/info/github.com/SAP-samples/teched2020-DT261)
+
 ## Description
 
 This repository contains the material for the SAP TechEd 2020 session called DT261 - Extend SAP S/4HANA to meet unique business needs – the cloud-native way!
